@@ -55,10 +55,11 @@ def sendEmail(to, content):
     server.sendmail('recipents mail id ', to, content)
     server.close()
 
+    #execution of main starts from below
 if __name__ == "__main__":
     wishMe()
     while True:
-    
+ #different quaries    
         query = takeCommand().lower()
         
         if 'wikipedia' in query:
